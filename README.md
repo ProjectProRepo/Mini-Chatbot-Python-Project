@@ -54,6 +54,24 @@ The intents.json file is parsed to extract patterns, responses, and correspondin
 
 Use the chatbot in an interactive session. Type your queries, and the bot will respond based on the trained model.
 
+## Customization 
+To modify or extend the chatbot:
+- Update intents.json with new patterns and responses.
+- Retrain the model to include the changes.
+- 
+## How It Works
+1. **Text Preprocessing**
+- Tokenizes user inputs and patterns from intents.json.
+- Converts text into numerical features using BoW.
+2. **Neural Network Training**
+ Trains a model on feature-label pairs.
+- Predicts the most relevant tag for a given user query.
+3. **Response Generation**
+- Matches the predicted tag to the appropriate response from intents.json.
+
+
+
 For a detailed explanation of each step and the fundamentals, read the complete blog: [Python Chatbot Project-Learn to build a chatbot from Scratch](https://www.projectpro.io/article/python-chatbot-project-learn-to-build-a-chatbot-from-scratch/429)
+
 Feel free to fork this repository, raise issues, or submit pull requests to enhance the project!
 
