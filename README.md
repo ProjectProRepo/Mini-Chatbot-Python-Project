@@ -1,7 +1,7 @@
 # Mini Chatbot Project in Python with Source Code
 A Python-based chatbot that utilizes Natural Language Processing (NLP) techniques to process user inputs and provide appropriate responses. This project demonstrates key steps in building a chatbot, including preprocessing text, training a neural network model, and designing interactive conversations.
 
-##Steps to Run the Project 
+## Steps to Run the Project 
 1. **Mount Google Drive**
 Update the data_root variable to the correct path where intents.json is located in your Google Drive.
 2. **Load Required Libraries**
