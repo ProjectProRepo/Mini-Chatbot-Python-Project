@@ -58,7 +58,7 @@ Use the chatbot in an interactive session. Type your queries, and the bot will r
 To modify or extend the chatbot:
 - Update intents.json with new patterns and responses.
 - Retrain the model to include the changes.
-- 
+
 ## How It Works
 1. **Text Preprocessing**
 - Tokenizes user inputs and patterns from intents.json.
