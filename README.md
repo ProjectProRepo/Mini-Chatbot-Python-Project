@@ -1,6 +1,27 @@
 # Mini Chatbot Project in Python with Source Code
 A Python-based chatbot that utilizes Natural Language Processing (NLP) techniques to process user inputs and provide appropriate responses. This project demonstrates key steps in building a chatbot, including preprocessing text, training a neural network model, and designing interactive conversations.
 
+## Features 
+- Interactive and responsive chatbot for text-based inputs.
+- Utilizes Bag of Words (BoW) for feature extraction.
+- Customizable intents with responses provided in intents.json.
+- Neural network model built with TensorFlow/Keras.
+- Designed to be lightweight and easy to modify.
+
+## File Structure 
+- **intents.json** contains predefined patterns, tags, and responses for the chatbot.
+- The .ipynb notebook file has the Python code implementing the chatbot with detailed explanations.
+- README.md has the documentation for the project (this file).
+
+## Requirements 
+To run this project, ensure the following dependencies are installed:
+- tensorflow
+- numpy
+- nltk
+You can install them using pip:
+pip install tensorflow numpy nltk
+
+
 ## Steps to Run the Project 
 
 1. **Mount Google Drive**
@@ -28,6 +49,10 @@ The intents.json file is parsed to extract patterns, responses, and correspondin
 - A feedforward neural network with dropout is used.
 
 - Train the model on the preprocessed data.
+
+For a detailed explanation of each step and the fundamentals, read the complete blog: [Python Chatbot Project-Learn to build a chatbot from Scratch](https://www.projectpro.io/article/python-chatbot-project-learn-to-build-a-chatbot-from-scratch/429)
+Feel free to fork this repository, raise issues, or submit pull requests to enhance the project!
+
 
 6. **Interact with the Chatbot**
 
