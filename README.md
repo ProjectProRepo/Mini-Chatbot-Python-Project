@@ -50,11 +50,10 @@ The intents.json file is parsed to extract patterns, responses, and correspondin
 
 - Train the model on the preprocessed data.
 
-For a detailed explanation of each step and the fundamentals, read the complete blog: [Python Chatbot Project-Learn to build a chatbot from Scratch](https://www.projectpro.io/article/python-chatbot-project-learn-to-build-a-chatbot-from-scratch/429)
-Feel free to fork this repository, raise issues, or submit pull requests to enhance the project!
-
-
 6. **Interact with the Chatbot**
 
 Use the chatbot in an interactive session. Type your queries, and the bot will respond based on the trained model.
+
+For a detailed explanation of each step and the fundamentals, read the complete blog: [Python Chatbot Project-Learn to build a chatbot from Scratch](https://www.projectpro.io/article/python-chatbot-project-learn-to-build-a-chatbot-from-scratch/429)
+Feel free to fork this repository, raise issues, or submit pull requests to enhance the project!
 
