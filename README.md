@@ -10,7 +10,7 @@ A Python-based chatbot that utilizes Natural Language Processing (NLP) technique
 
 ## File Structure 
 - **intents.json** contains predefined patterns, tags, and responses for the chatbot.
-- The *.ipynb notebook file* has the Python code implementing the chatbot with detailed explanations.
+- The **.ipynb notebook file** has the Python code implementing the chatbot with detailed explanations.
 - README.md has the documentation for the project (this file).
 
 ## Requirements 
