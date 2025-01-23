@@ -18,7 +18,9 @@ To run this project, ensure the following dependencies are installed:
 - tensorflow
 - numpy
 - nltk
+
 You can install them using pip:
+
 pip install tensorflow numpy nltk
 
 
