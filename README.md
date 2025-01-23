@@ -10,7 +10,7 @@ A Python-based chatbot that utilizes Natural Language Processing (NLP) technique
 
 ## File Structure 
 - **intents.json** contains predefined patterns, tags, and responses for the chatbot.
-- The .ipynb notebook file has the Python code implementing the chatbot with detailed explanations.
+- The *.ipynb notebook file* has the Python code implementing the chatbot with detailed explanations.
 - README.md has the documentation for the project (this file).
 
 ## Requirements 
@@ -64,7 +64,7 @@ To modify or extend the chatbot:
 - Tokenizes user inputs and patterns from intents.json.
 - Converts text into numerical features using BoW.
 2. **Neural Network Training**
- Trains a model on feature-label pairs.
+- Trains a model on feature-label pairs.
 - Predicts the most relevant tag for a given user query.
 3. **Response Generation**
 - Matches the predicted tag to the appropriate response from intents.json.
