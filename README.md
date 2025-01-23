@@ -6,6 +6,7 @@ A Python-based chatbot that utilizes Natural Language Processing (NLP) technique
 1. **Mount Google Drive**
 
 Update the data_root variable to the correct path where intents.json is located in your Google Drive.
+
 2. **Load Required Libraries**
 
 The necessary libraries such as nltk, numpy, and tensorflow are imported.
@@ -16,19 +17,19 @@ The intents.json file is parsed to extract patterns, responses, and correspondin
 
 4. **Preprocess the Data**
 
-Tokenize and lemmatize text.
+- Tokenize and lemmatize text.
 
-Create a Bag of Words (BoW) representation.
+- Create a Bag of Words (BoW) representation.
 
-One-hot encode class labels.
+- One-hot encode class labels.
 
 5. **Train the Neural Network**
 
-A feedforward neural network with dropout is used.
+- A feedforward neural network with dropout is used.
 
-6. **Train the model on the preprocessed data.**
+- Train the model on the preprocessed data.
 
-Interact with the Chatbot
+6. **Interact with the Chatbot**
 
 Use the chatbot in an interactive session. Type your queries, and the bot will respond based on the trained model.
 
